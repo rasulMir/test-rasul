@@ -1,0 +1,110 @@
+.main {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-document {
+    flex: 0 0 60%;
+    padding: 0 30px;
+}
+.underline {
+    display: inline-block;
+    padding: 2px 0;
+    position: relative;
+    overflow: hidden;
+}
+.underline::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+}
+
+.main-fields {
+    flex: 0 0 40%;
+}
+.doc-header-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 30px 0;
+}
+.doc-title {
+    text-align: center;
+    margin: 0 20px 0 0;
+}
+.doc-header-date {
+    display: flex;
+    flex-wrap: wrap;
+}
+.doc-header-date > * {
+    margin: 0 2px;
+}
+.doc-header-date-city {
+    flex: 0 0 100%;
+}
+.doc-header-date-day {
+    width: 30px;
+}
+.doc-header-date-month {
+    width: 30px;
+}
+.doc-header-sign > span {
+    display: inline-block;
+    width: 20px;
+}
+
+.doc-descr {
+    line-height: 1.5;
+    margin: 0;
+}
+.doc-descr > span {
+    display: inline-block;
+}
+.first-line {
+    padding: 0 0 0 30px;
+}
+.doc-price {
+    width: 100px;
+}
+.doc-fullname {
+    width: 250px;
+}
+
+.doc-id-number {
+    width: 100px;
+}
+.doc-id-date {
+    width: 100px;
+}
+.doc-address {
+    width: 250px;
+}
+
+.doc-body {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.doc-item {
+    margin: 15px 0;
+}
+.doc-footer-table {
+    border: 1px solid #000;
+    border-bottom: none;
+}
+.doc-seller {
+    border-right: 1px solid #000;
+}
+.table-item {
+    padding: 2px 5px;
+    border-bottom: 1px solid #000;
+}
+.table-item-txt > .underline {
+    width: 50px;
+}
