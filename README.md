@@ -1,3 +1,6 @@
+ вся верстка -> src/layouts/Main.vue.
+ Стили здесь css/doc.scss 
+
 # test (test-rasul)
 
 A Quasar Project
